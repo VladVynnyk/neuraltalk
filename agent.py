@@ -21,7 +21,7 @@ TOKEN = getenv("OPENAI_API_KEY")
 calendar = CalendarClient(
     service_account_file="service-creds.json",
     scopes=["https://www.googleapis.com/auth/calendar"],
-    calendar_id=""
+    calendar_id="" # Here should be an email
 )
 
 @tool

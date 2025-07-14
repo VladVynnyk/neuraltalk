@@ -11,7 +11,7 @@
 2. `python -m venv .venv`
 3. `cd .venv/Scripts`
 4. `activate`
-5. `pip install req.txt`
+5. `pip install -r req.txt`
 6. create `.env` file and set variables: `BOT_TOKEN` and `OPENAI_API_KEY`
 7. add file service-creds.json - it's file with credentials Service Account of Google
 8. add calendar_id in file agent.py. This should be an email of user
